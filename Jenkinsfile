@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git 'https://github.com/Mariam22-hub/cloud-pipeline.git'
+                git 'https://github.com/Mariam22-hub/cloud-pipeline'
             }
         }
 
